@@ -1,0 +1,105 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Mangal;
+	panose-1:2 4 5 3 5 2 3 3 2 2;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Aptos;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:12.0pt;
+	font-family:"Aptos",sans-serif;}
+.MsoChpDefault
+	{font-size:12.0pt;
+	font-family:"Aptos",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-IN style='word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal>&lt;!doctype HTML&gt;</p>
+
+<p class=MsoNormal>&lt;html&gt;</p>
+
+<p class=MsoNormal>    &lt;head&gt;</p>
+
+<p class=MsoNormal>        &lt;meta name=&quot;viewport&quot;
+content=&quot;width=device-width, user-scalable=no, minimum-scale=1.0,
+maximum-scale=1.0&quot;&gt;</p>
+
+<p class=MsoNormal>    &lt;/head&gt;</p>
+
+<p class=MsoNormal>    &lt;script
+src=&quot;https://aframe.io/releases/0.9.0/aframe.min.js&quot;&gt;&lt;/script&gt;</p>
+
+<p class=MsoNormal>    &lt;script
+src=&quot;https://rawgit.com/jeromeetienne/AR.js/master/aframe/build/aframe-ar.min.js&quot;&gt;&lt;/script&gt;</p>
+
+<p class=MsoNormal>    &lt;script
+src=&quot;https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js&quot;&gt;&lt;/script&gt;</p>
+
+<p class=MsoNormal>    </p>
+
+<p class=MsoNormal>    &lt;body style='margin : 0px; overflow: hidden;'&gt;</p>
+
+<p class=MsoNormal>        &lt;!-- we add detectionMode and matrixCodeType to
+tell AR.js to recognize barcode markers --&gt;</p>
+
+<p class=MsoNormal>        &lt;a-scene embedded arjs='sourceType: webcam;
+debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType:
+4x4;'&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        &lt;a-marker type='barcode' value='230'&gt;</p>
+
+<p class=MsoNormal>            &lt;a-cylinder'
+color=&quot;yellow&quot;&gt;&lt;/a-cylinder&gt;</p>
+
+<p class=MsoNormal>        &lt;/a-marker&gt;</p>
+
+<p class=MsoNormal>    </p>
+
+<p class=MsoNormal>        &lt;!-- use this &lt;a-entity camera&gt; to support
+multiple-markers, otherwise use &lt;a-marker-camera&gt; instead of
+&lt;/a-marker&gt; --&gt;</p>
+
+<p class=MsoNormal>        &lt;a-entity camera&gt;&lt;/a-entity&gt;</p>
+
+<p class=MsoNormal>        &lt;/a-scene&gt;</p>
+
+<p class=MsoNormal>    &lt;/body&gt;</p>
+
+<p class=MsoNormal>&lt;/html&gt;</p>
+
+</div>
+
+</body>
+
+</html>
